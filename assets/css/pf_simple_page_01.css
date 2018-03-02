@@ -1,0 +1,323 @@
+body{
+    background-color: #D0EEE1;
+}
+html,body{
+    width: 100%;
+    height: 100%
+
+}
+h1,
+h2,
+h4,
+h4,
+h5,
+h6{margin:0px;padding: 0px;}
+/*pf_simple_content_area css start*/
+#pf_simple_content_area{
+background-color: #D0DEEE;
+    margin: 80px 29px 30px 30px;
+    padding: 0px;
+
+    /* position: relative; */
+}
+.pf_tab_menu{position: relative;top: -50px;}
+.pf_tab_container{
+padding: 0px 20px;
+    /* position: relative; */
+    margin-top: 0px;
+}
+.tab-content{
+padding: 20px 0px;
+}
+.tab-content h3{margin: 0px;}
+.pf_tab_pane_image{
+    display: inline-block;
+    float: left;
+    width: 250px;
+    height: 250px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.pf_tab_pane_image img{
+    width: 100%;
+    height: 100%;
+}
+.content-color p:nth-child(even){
+    color:#285E1A;
+}
+.content-color p:nth-child(odd){
+    color:#581A5E;
+}
+/*pragraph space change css start*/
+.paragraph-space{text-align: justify;}
+.option-no-05 p:nth-child(5n+1){
+margin-bottom: 50px !important;
+/*background-color: red;*/
+}
+
+.option-no-07 p:nth-child(7n+1){
+margin-bottom: 50px !important;
+}
+
+/*pragraph space change css  end*/
+/*css for paragraph vertical scrolling start*/
+.tab-pane{}
+.scroll-outer-container{
+position: relative;
+}
+
+
+
+.scroll-inner-container{
+    height: calc(60vh + 50px);
+    overflow-y: scroll;
+}
+.scroll-inner-container::-webkit-scrollbar { 
+position: absolute;
+/*  display: none;*/
+}
+
+.overlayTop{
+position: absolute;
+    height: 50px;
+    width: 100%;
+    background-color: red;
+    left: 0px;
+    top: 0px;
+    opacity: 0.4;
+}
+.overlayBottom{
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    background-color: red;
+    left: 0px;
+    bottom: 0px;
+    opacity: 0.4;
+}
+/*css for paragraph vertical scrolling end*/
+.country-name {
+    width: calc(81% - 275px);
+    /* left: 266px; */
+    position: absolute;
+   /* height: 30px;*/
+    background-color: #F5E2F2;
+}
+.content-warapper {
+    background-color: #D0DEEE;
+    position: relative;
+}
+
+/*Horizonatal menu css for countryname Start*/
+.horizontalMenu i{
+    display: inline-block;
+    font-size: 30px;
+}
+.horizontalMenu i.pull-left{
+  visibility: hidden;
+}
+.horizontalMenu i:hover{
+  cursor: pointer;
+}
+.menuContainer {
+    float: left;
+    position: relative;
+    /*top: 5px;*/
+}
+.menuContainer>.innerContainer {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.horizontalMenu>.menuContainer>.innerContainer>li{
+  display: inline-block;
+  float: none;
+  list-style-type: none;
+}
+
+.topMainHorizontalMenu.horizontalMenu>i {
+line-height: 50px;
+    height: 50px;
+}
+.menuContainer ul li a{
+    padding: 13px 13px;
+    font-size: 17px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*.menuContainer ul li:nth-child(1) a{color:blue;}
+.menuContainer ul li:nth-child(2) a{color:blueviolet;}
+.menuContainer ul li:nth-child(3) a{color:brown;}
+.menuContainer ul li:nth-child(4) a{color:burlywood;}
+.menuContainer ul li:nth-child(5) a{color:cadetblue;}
+.menuContainer ul li:nth-child(6) a{color:chartreuse;}
+.menuContainer ul li:nth-child(7) a{color:chocolate;}
+.menuContainer ul li:nth-child(8) a{color:coral;}
+.menuContainer ul li:nth-child(9) a{color:cornflowerblue;}
+.menuContainer ul li:nth-child(10) a{color:cornsilk;}
+.menuContainer ul li:nth-child(11) a{color:crimson;}
+.menuContainer ul li:nth-child(12) a{color:cyan;}*/
+
+
+/*.menuContainer ul li.active:nth-child(1) a:hover{color:black;background-color: blue}
+.menuContainer ul li.active:nth-child(2) a:hover{color:black;background-color:blueviolet;}
+.menuContainer ul li.active:nth-child(3) a:hover{color:black;background-color:brown;}
+.menuContainer ul li.active:nth-child(4) a:hover{color:black;background-color:burlywood;}
+.menuContainer ul li.active:nth-child(5) a:hover{color:black;background-color:cadetblue;}
+.menuContainer ul li.active:nth-child(6) a:hover{color:black;background-color:chartreuse;}
+.menuContainer ul li.active:nth-child(7) a:hover{color:black;background-color:chocolate;}
+.menuContainer ul li.active:nth-child(8) a:hover{color:black;background-color:coral;}
+.menuContainer ul li.active:nth-child(9) a:hover{color:black;background-color:cornflowerblue;}
+.menuContainer ul li.active:nth-child(10) a:hover{color:black;background-color:cornsilk;}
+.menuContainer ul li.active:nth-child(11) a:hover{color:black;background-color:crimson;}
+.menuContainer ul li.active:nth-child(12) a:hover{color:black;background-color:cyan;}*/
+
+.blue-color{background-color: blue;color: black}
+.blueviolet-color{background-color:blueviolet }
+.brown-color{background-color: brown}
+.burlywood-color{background-color:burlywood }
+.cadetblue-color{background-color:cadetblue }
+.chartreuse-color{background-color:chartreuse }
+.chocolate-color{background-color:chocolate }
+.coral-color{background-color:cornflowerblue }
+.cornflowerblue-color{background-color: }
+.cornsilk-color{background-color:cornsilk }
+.crimson-color{background-color:crimson }
+.cyan-color{background-color:cyan }
+
+
+/*.menuContainer ul li a:hover{color: #000;}*/
+.innerContainer{}
+.horizontalMenu .innerContainer{
+  padding: 0;
+  margin: 0;
+}
+.fa-angle-right,
+.fa-angle-left{
+    color:#fff;
+}
+.fa-angle-right{
+    margin-right: 20px;
+}
+.fa-angle-left{
+    margin-left: 20px;
+}
+/*Horizonatal menu css for countryname  Ends*/
+
+
+/*pf_simple_content_area css END*/
+
+
+/*here toolbox css start*/
+.cotent-toolbox-area{
+    display: inline-block;
+    right: 0;
+    margin-right: 30px;
+    margin-top: 13px;
+    /* position: fixed; */
+    display: inline-block;
+    float: right;
+    margin-right: 30px;
+   
+}
+.toolbox{
+  background-color: #000;
+  padding: 20px;
+
+
+}
+.toolbox span{    
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    height: 20px;
+    line-height: 10px;
+    margin: 0px 5px;
+  }
+.toolbox span i:hover{
+  background-color: #fff;
+  color: #000;
+  transition: 1s;
+}
+.toolbox span i.fa-arrow-up{}
+.toolbox span i.fa-plus,
+.toolbox span i.fa-minus{
+    border-radius: 50px;
+    border: 1px solid #fff;
+    padding: 6px;
+    height: 30px;
+    width: 30px;
+    line-height: 18px;
+}
+.toolbox span img{width: 30px;height: 30px;cursor: pointer;}
+.toolbox-name{margin-right: 15px;}
+.auto-scroll-arrow-btn{position: absolute;}
+/*css for paragraph space select*/
+.paragarph-space-form{}
+form.paragarph-space-form{display: inline-block;}
+form.paragarph-space-form select{
+    background-color: #000;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 1px solid #fff !important;
+    background-image: none;
+    width: 33px;
+    height: 33px;
+    line-height: 33px;
+    padding-left: 4px;
+    font-size: 20px;
+}
+form.paragarph-space-form select:hover{
+  background-color: #fff;
+  color:#000;
+  transition: 1s;
+}
+/*even-paragraph-color-panel css start*/
+.even-paragraph-color-panel{
+}
+.odd-paragraph-color-panel{}
+.input-color-container{
+    position: relative;
+    overflow: hidden;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 40px;
+    display: inline-block;
+    top: 8px;
+}
+.input-color{
+    position: absolute;
+    right: -5px;
+    top: -6px;
+    width: 40px;
+    height: 43px;
+    border: none;
+}
+input#colorWell{
+
+}
+.even-paragraph-color-panel input[type="color"],
+.odd-paragraph-color-panel input[type="color"] {
+
+
+
+}
+
+/*here toolbox css end*/

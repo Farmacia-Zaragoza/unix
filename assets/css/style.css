@@ -1,0 +1,856 @@
+
+ sftp://dbrqx.com;
+*/
+html, body{
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+h1,h2,h3,h4,h5,h6,p{margin: 0px;padding: 0px;}
+.body-bg{
+  background-color: #E9CBB5;
+}
+.pf_simple{background-color: #D0DEEE;}
+
+/*unix-header-area area css start*/
+#header{
+  margin: 20px 0px;
+}
+.main-logo{display: inline-block;}
+.main-logo h1{color: #104A91;font-size: 60px;}
+.main-logo-text{}
+.main-logo-text{display: table;width: 100%;height: 100%;}
+.main-logo-text h2{padding-top: 20px;color: #104A91;font-size: 25px;display: table-cell;vertical-align: middle;}
+
+/*unix-header-area area css end*/
+
+
+.flag-combo-left{float: left;}
+.flag-combo-right{float: right;}
+
+/*flag-combo-and-country-name css start*/
+#flag-combo-and-country-name{
+
+}
+/*flag-combo-left and flag-combo-right start*/
+.dd-selected,.dd-option {
+    padding: 3px 10px !important;
+    text-align: center;
+}
+.dd-option-image, .dd-selected-image {
+    vertical-align: middle;
+    float: left;
+    margin-right: 5px;
+    max-width: 50px !important;
+    margin-top: 3px;
+}
+.dd-selected-text, .dd-option-text {
+    line-height: 37px !important;
+}
+/*flag-combo-left and flag-combo-right end*/
+.outdiv-bg{
+	background-image: url(../../img/background/gray_background.png);
+}
+
+.country-name {
+    width: calc(81% - 275px);
+    left: 266px;
+    position: absolute;
+    height: 50px;
+}
+.content-warapper {
+    background-color: #D0DEEE;
+    position: relative;
+}
+
+/*Horizonatal menu css for countryname Start*/
+.horizontalMenu i{
+    display: inline-block;
+    font-size: 30px;
+}
+.horizontalMenu i.pull-left{
+  visibility: hidden;
+}
+.horizontalMenu i:hover{
+  cursor: pointer;
+}
+.menuContainer {
+    float: left;
+    position: relative;
+    top: 13px;
+}
+.menuContainer>.innerContainer {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.horizontalMenu>.menuContainer>.innerContainer>li{
+  display: inline-block;
+  float: none;
+  list-style-type: none;
+}
+
+.topMainHorizontalMenu.horizontalMenu>i {
+    line-height: 50px;
+    height: 50px;
+}
+.menuContainer ul li a{
+    padding: 10px 13px;
+    font-size: 15px;
+    color: #fff;
+}
+.menuContainer ul li a:hover{}
+.innerContainer{}
+.horizontalMenu .innerContainer{
+  padding: 0;
+  margin: 0;
+}
+.fa-angle-right,
+.fa-angle-left{
+	color:#fff;
+}
+.fa-angle-right{
+	margin-right: 20px;
+}
+.fa-angle-left{
+	margin-left: 20px;
+}
+/*Horizonatal menu css for countryname  Ends*/
+
+
+/*main-content-left vertical-menu css start*/
+
+i.fa-angle-down,
+i.fa-angle-up{
+  cursor: pointer;
+}
+.verticalMenu i {
+  font-size: 35px;
+}
+.verticalMenu img{
+    width: 250px;
+    padding: 5px 0px;}
+.arrow-image-size{
+    width: 50px !important;
+    margin: 0px auto;
+}
+
+.main-content-left-menu{
+    background-color: #EDF7EE;
+    width: 250px;
+    height: 100%;
+    position: absolute;
+    left: 10px;
+    z-index: 1;
+}
+/*NOTE:WHEN FONT WAESOME ICON WILL BE USE FOR ARROW THEN USE THIS ====height:calc(70% + 35px);====*/
+/*NOTE:WHEN ARROW-IMAGE WILL BE USE FOR ARROW THEN USE THIS ==== ====*/
+.verticalMenu{
+text-align: center;
+position: relative;
+height:-webkit-calc(70% + 35px); /* Must Use a Height for the Vertical Menu Identifier Class */
+height:-moz-calc(70% + 35px); /* Must Use a Height for the Vertical Menu Identifier Class */
+height:calc(70% + 35px); /* Must Use a Height for the Vertical Menu Identifier Class */
+}
+
+.verticalMenu .verticalInnerContainer{
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
+
+.verticalInnerContainer li{padding:10px 0px;}
+.verticalInnerContainer li a{font-size:15px;text-transform:uppercase;}
+/* SlideRight Menu */
+.slideRightContainer{
+padding-left: 10px;
+position: absolute;
+left: 100%;
+display: block;
+width: 300px;
+}
+.slideRightContainer > .horizontalMenu2{
+background-color: #EDF7EE;
+width: 250px;
+height: 100%;
+padding: 0 10px 0 5px;
+line-height: 25px;
+}
+.verticalInnerContainer li:hover .slideRightContainer{
+  display: block;
+}
+.horizontalMenu2{}
+.horizontalMenu2 .innerContainer2{
+    padding: 0;
+    margin: 0;
+}
+.menuContainer2 {
+  float: left;
+  position: relative;
+}
+.horizontalMenu2>.menuContainer2>.innerContainer2>li {
+position: static;      
+float: none;
+list-style-type: none;
+}
+.menuContainer2{
+width: 100%;
+height: 100%;
+background-position: center center;
+}
+.menuContainer2>.innerContainer2 {
+  width: 100%;
+}
+.menuContainer2 img{
+  width: 100%;
+ /* height: 100%;*/
+  display: block;
+  position: relative;
+}
+.innerContainer2{
+    position: absolute;
+    top: 30px;
+    left: 0px;
+}
+/*main-content-left vertical-menu css end*/
+
+
+/*main-content-area css area start*/
+#main-content-area{
+ 
+}
+.Padding10{padding:0px 10px;}
+.padding-area{}
+/*main-content-middle-area css start*/
+.main-content-middle-area{
+    /*width: calc(81% - 275px);*/
+    /*left: 266px;*/
+    position: absolute;
+    background-color: #D0DEEE;
+    /*height: 100%;*/
+    padding-top: 20px;
+}
+
+
+
+
+
+.no-padding {
+  padding: 0; }
+
+.main-content-bg {
+  background-color: #ddd; }
+
+.content-warapper {
+  background-color: #D0DEEE;
+  position: relative; 
+}
+
+.content-title {
+  position: relative;
+  margin: 0px 36px;
+  margin-bottom: 5px; }
+
+.content-menu ul {
+  margin: 0px;
+  list-style: none;
+  padding: 0px 26px 0px 30px; }
+
+.content-menu ul li {
+  display: inline; }
+
+.content-menu ul li a {
+  color: #fff;
+  font-size: 15px;
+  font-family: 'MyriadPro-Regular';
+  text-transform: uppercase;
+  padding: 10px 10px;
+  display: inline-block; }
+
+.content-title h2 {
+  color: #fff;
+  text-transform: capitalize;
+  text-align: center; }
+
+.content-artical-image {
+  float: left; }
+
+.content {margin-right: 20px;}
+.content h2{color:#104A91;margin-bottom: 20px;}
+
+.content p { 
+  font-size: 2vw;
+  text-align: justify;
+}
+
+
+.option-no-05 p:nth-child(5n+0){
+margin-bottom: 50px !important;
+/*background-color: red;*/
+}
+
+.option-no-07 p:nth-child(7n+0){
+margin-bottom: 50px !important;
+}
+
+.option-no-10 p:nth-child(10n+0){
+margin-bottom: 50px !important;
+}
+
+.option-no-15 p:nth-child(15n+0){
+margin-bottom: 50px !important;
+}
+.option-no-20 p:nth-child(20n+0){
+margin-bottom: 50px !important;
+}
+
+
+
+.nav-menu-title {
+  margin-bottom: 20px; }
+
+.all-content-area {
+  background-color: #D0DEEE; }
+
+.content-artical-menu {
+  display: inline-block;
+  position: relative;
+  margin-bottom: 15px; }
+
+.content-artical-menu ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none; }
+
+.nav-pills > li > a {
+  border-radius: none; }
+
+.content-artical-menu ul li a {
+  color: #000;
+  display: block;
+  padding: 10px 15px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #fff; }
+
+.tab-pane-image {
+  display: inline-block;
+  width: 200px;
+  height: 264px;
+  margin: 0px 20px 20px 0px; }
+
+.tab-pane-image img {
+  width: 100%;
+  height: 100%; }
+
+.tab-pane-content p {
+  margin-bottom: 15px;
+  font-family: 'MyriadPro-Regular';
+  text-align: justify;
+  font-size: 16px; }
+
+
+/*main-content-middle-area css end*/
+
+
+
+
+
+
+
+
+/*main-content-social-area css start*/
+.main-content-right-area{
+    position: absolute;
+    right: 0px;
+
+}
+.social-container{
+    width: 250px;
+    margin-right: 10px;
+}
+/*main-content-social-area css end*/
+/*main-content-area css end*/
+
+/*footer section area css start*/
+
+#footer{
+  background-color: blue;
+  position: relative;
+  background-image: url(../../img/background/gray_background.png);
+}
+.footer-area{}
+.footer-content{
+  padding:10px;
+}
+.footer-content p{text-align: center;font-size: 16px;color: #fff;}
+/*footer section area css end*/
+
+
+
+/*
+|**********************|
+|css for pf_simple.html|
+|**********************|
+*/
+
+/*body .pf_simple{height: 100%;width: 100%;}*/
+/*here toolbox css start*/
+
+.cotent-toolbox-area{
+    display: inline-block;
+    right: 0;
+    display: inline-block;
+    float: right;
+   
+}
+.toolbox{
+  background-color: #000;
+
+
+}
+.toolbox span{    
+    color: #fff;
+    text-transform: uppercase;
+    height: 20px;
+    line-height: 10px;
+/*    margin: 0px 5px;*/
+    text-align: center;
+  }
+.toolbox span i:hover{
+  background-color: #fff;
+  color: #000;
+  transition: 1s;
+}
+.toolbox span i.fa-arrow-up{}
+.toolbox span i.fa-plus,
+.toolbox span i.fa-minus{
+    border-radius: 50px;
+    border: 1px solid #fff;
+    height: 30px;
+    width: 30px;
+    line-height: 18px;
+}
+.toolbox span i.fa-clipboard{
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 33px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0px;
+    font-size: 15px;
+    color: #BBE0A5;
+    position: relative;
+}
+
+
+span.yesno-btn-wrapper{
+    position: relative;
+}
+.copy-yesno-btn{
+    position: absolute;
+    top: 45px;
+    right: -25px;
+    width: 75px;
+    text-align: center;
+}
+i.yes,
+i.no {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    float: left;
+    background-color: #000;
+    border: 1px solid #ededed;
+    color: #fff;
+    font-size: 20px;
+    padding: 5px;
+}
+.copy-yesno-btn i.fa-check:hover{
+    background-color: #fff;
+    color:#000;
+    border:1px solid #000;
+}
+.copy-yesno-btn i.fa-times:hover{
+    background-color: #fff;
+    color:#000;
+    border:1px solid #000;
+}
+
+
+
+
+.toolbox span img{width: 30px;height: 30px;cursor: pointer;}
+.toolbox-name{margin-right: 15px;}
+.auto-scroll-arrow-btn{position: absolute;}
+/*css for paragraph space select*/
+.paragarph-space-form{}
+form.paragarph-space-form{display: inline-block;}
+form.paragarph-space-form select{
+    background-color: #000;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 1px solid #fff !important;
+    background-image: none;
+    width: 33px;
+    height: 33px;
+    line-height: 33px;
+    padding-left: 4px;
+    font-size: 20px;
+}
+form.paragarph-space-form select:hover{
+  background-color: #fff;
+  color:#000;
+
+}
+/*even-paragraph-color-panel css start*/
+.even-paragraph-color-panel{
+}
+.odd-paragraph-color-panel{}
+.input-color-container{
+    position: relative;
+    overflow: hidden;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 40px;
+    display: inline-block;
+    top: 8px;
+}
+.input-color{
+position: absolute;
+right: -9px;
+top: -6px;
+width: 48px;
+height: 43px;
+border: none;
+}
+input#colorWell{
+
+}
+/*content default color*/
+.content p:nth-child(even){
+    color:#285E1A;
+}
+.content p:nth-child(odd){
+    color:#581A5E;
+}
+.even-paragraph-color-panel input[type="color"],
+.odd-paragraph-color-panel input[type="color"] {
+
+
+
+}
+
+/*here toolbox css end*/
+
+.pf_content_heading h1{
+  text-transform: capitalize;
+  color: #1057B9;
+}
+.pf_content{position: relative;}
+.scroll-outer-container{
+    position: relative;
+    padding: 0px 20px 0px 20px;
+    height: 100%;
+
+}
+
+.scroll-middle-container{}
+
+
+.scrollToBottom{
+    display: inline-block;
+    right: 28px;
+    position: absolute;
+    top: -44px; 
+    cursor: pointer; 
+}
+.scrollToTop{
+display: inline-block;
+    right: 28px;
+    position: absolute;
+    bottom: -44px;
+    cursor: pointer;
+}
+.scroll-inner-container{
+    height: -moz-calc(70vh + 0px);
+    height: -webkit-calc(70vh + 0px);
+    height: calc(70vh + 0px);
+    overflow: auto;
+    object-fit: cover;
+    /*background-color: yellow;*/
+    position: relative;
+}
+.scroll-inner-container::-webkit-scrollbar { 
+  /*display: none;*/
+  /*position: absolute;*/
+}
+.scroll-middle-container{}
+/*pragraph space change css start*/
+.paragraph-space{text-align: justify;}
+
+.overlayTop{
+    position: absolute;
+    height: 150px;
+    width: 100%;
+    background-color: red;
+    left: 0px;
+    top: 0px;
+    opacity: 0.4;
+    
+}
+
+.for-cursor-down{
+    cursor: url(../../img/mouse_down.png),auto;
+}
+.overlayBottom{
+    position: absolute;
+    height: 150px;
+    width: 100%;
+    background-color: red;
+    left: 0px;
+    bottom: 0px;
+    opacity: 0.4;
+}
+.for-cursor-up{
+    cursor:url(../../img/mouse_up.png),auto;
+}
+/*.overlayTop:hover{
+  cursor: url(../image/mouse_down.png),auto;
+}
+.overlayBottom:hover{
+  cursor:url(../image/mouse_up.png),auto;
+}*/
+/*scroll bar design start here*/
+
+.scroll-inner-container::-webkit-scrollbar{
+  background-color: #fff;
+  border-radius: 20px;
+  width: 10px;
+}
+.scroll-inner-container::-webkit-scrollbar-button{}
+.scroll-inner-container::-webkit-scrollbar-track{
+  background-color: #D0DEEE;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 20px;
+}
+.scroll-inner-container::-webkit-scrollbar-track-piece  {}
+.scroll-inner-container::-webkit-scrollbar-thumb{
+  background-color: #D0DEEE;
+  border-radius: 10px;
+  height: 100px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+.scroll-inner-container::-webkit-scrollbar-corner{}
+.scroll-inner-container::-webkit-resizer{}
+/*scroll bar design code for firefox*/
+
+
+
+
+/*scroll bar design end here*/
+
+
+/*pf_image page css start here*/
+.unix-pf-image-area{    
+    position: relative;
+    
+  }
+.unix-pf-image-area:hover{
+    box-shadow: 0px 0px 5px 3px #888888;
+    transition: .5s ease-in-out;
+}
+/* .unix-pf-image-area img{
+  width: 100%;
+  height: 100%;
+
+} */
+
+.image-warpper{
+    position: absolute;
+    height: 100%;
+    display: inline-block;
+}
+.image-warpper .image-overlay{
+position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  
+  /*opacity:0;*/
+  background-clip: content-box;
+  padding: 5px;
+  /*transition: .5s ease-in-out;*/
+}
+.unix-pf-image-area:hover .image-overlay{
+  background-color: rgba(255,255,255,.3);
+}
+
+.focus-icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    max-width: 70%;
+    max-height: 70%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    visibility: hidden;
+    /*transition: 2s ease-in-out;*/
+  }
+.unix-pf-image-area:hover .focus-icon{
+    max-width: 50%;
+    max-height: 45%;
+    transition: 1s ease-in-out;
+    z-index: 1;
+    /*visibility: visible;*/
+    
+}
+
+
+
+#lightbox .modal-content {
+    display: inline-block;
+    text-align: center;   
+}
+.modal-body {
+  position: relative;
+  padding: 4px !important;
+}
+#lightbox .close {
+    opacity: 1;
+    color: rgb(255, 255, 255);
+    background-color: rgb(25, 25, 25);
+    padding: 5px 8px;
+    border-radius: 30px;
+    border: 2px solid rgb(255, 255, 255);
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    z-index:1032;
+}
+
+
+
+#copytoClipboard-area{
+    left:50%;
+    top: 50%;
+    position: fixed;
+    -webkit-transform: translateY(-50%);
+       -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+         -o-transform: translateY(-50%);
+            transform: translateY(-50%);
+    -webkit-transform: translateX(-50%);
+       -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+         -o-transform: translateX(-50%);
+            transform: translateX(-50%);
+    z-index: 10;
+    display: none;
+}
+.copy-massage-text{
+    width: 100%;
+    height: 100%;
+    background-color: #D0DEEE;
+    padding: 50px 50px;
+    font-size: 18px;
+    color: #000;
+    margin: 0px auto;
+    border: 1px solid #fff;
+    /*box-shadow: 1px 5px 7px -4px #888;*/
+    box-shadow: 2px 2px 8px 1px rgba(0,0,0,.2);
+    border-radius: 5px;
+}
+.copy-massage-text p{
+
+}
+
+/*progressive image for pf_progressive-images
+
+CSS FOR METHODE -1
+
+*/
+/* 
+.progressive-image {
+position: relative;
+    overflow: hidden;
+    width: 350px;
+    height: auto;
+    float: left;
+    height: 100%;
+    width: 100%;
+    margin-right: 15px;
+
+}
+
+.progressive-image div {
+    width: 100%;
+    height: 100%;
+  padding-top: 100%;
+  background-size: cover!important;
+  background-position: top center bottom center!important;
+}
+
+.progressive-image .loadingImage {
+  filter: blur(5px);
+}
+
+.progressive-image .overlay {
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  transition: opacity 200ms ease-in;
+} */
+
+/*CSS FOR METHODE -2*/
+
+.progressive {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  outline: none;
+}
+
+.progressive img {
+  display: block;
+  width: 100%;
+  max-width: none;
+  height: 100%;
+  border: 0 none;
+}
+
+.progressive img.preview {
+  filter: blur(2vw);
+  transform: scale(1.05);
+}
+
+.progressive img.reveal {
+  position: absolute;
+  left: 0;
+  top: 0;
+  will-change: transform, opacity;
+  animation: progressiveReveal 1s ease-out;
+}
+
+@keyframes progressiveReveal {
+  0% { transform: scale(1.05); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+
+
+/*pf_image page css end here*/
+
+/*
+
+

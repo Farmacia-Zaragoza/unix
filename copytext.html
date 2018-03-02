@@ -1,0 +1,122 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>unix hover image</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="assets/css/normalize_css/normalize.css">
+        <link rel="stylesheet" href="assets/css/bootstrap_css/bootstrap.min.css">
+        <!-- <link rel="stylesheet" href="assets/css/font-awesome.min.css"> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/lightbox_css/lightbox.css">
+
+        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="assets/css/responsive/responsive.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body class="page_id_images pf_simple js-enabled not-touch-device page_id_hover_image">
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<h1>copy text </h1>
+					<div class="content">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio molestias delectus alias eius sint? Vitae, deserunt. Eaque obcaecati quasi sed dolor consequatur voluptas at. Esse eligendi quasi iure perferendis asperiores quae vitae quod iusto, porro maiores fuga neque expedita? Iste aspernatur nihil aperiam aliquam, quod possimus soluta accusantium quam voluptate.</p>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<textarea class="form-control" name="masud" id="masud" cols="70" rows="20" width="100%"></textarea>
+				</div>
+			</div>
+		</div>
+	</section>
+ 
+
+
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+
+        <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="assets/js/plugins.js"></script>
+        <!-- <script src="js/drift.js"></script>--> <!-- NO NEED drift.js for page_normal.html -->
+        <script src="assets/js/bootstrap_js/bootstrap.min.js"></script>
+        <!-- <script src="assets/js/main.js"></script> -->
+        <script src="assets/js/blazy_js/blazy.min.js"></script>
+        <!-- <script src="assets/js/lightbox_js/lightbox.js"></script> -->
+        <script src="assets/js/jquery.elevatezoom.js"></script>
+        <script src="assets/js/ddslick_plugin_js/jquery.ddslick.js"></script>
+		
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+
+        <!-- copy to clipboard text function here start as an example -->
+        <script>
+        	function getSelectionText(){
+        		var selectedText = "";
+        		if (window.getSelection) {
+        			selectedText = window.getSelection().toString();
+        			// console.log(selectedText);
+        		}
+        	}
+
+			function copySelectionText(){
+			    var copysuccess // var to check whether execCommand successfully executed
+			    try{
+			        copysuccess = document.execCommand("copy") // run command to copy selected text to clipboard
+			    } catch(e){
+			        copysuccess = false
+			    }
+			    return copysuccess
+			}
+
+			// create tooltip finction
+			var tooltip,hidetooltiptimer;
+
+			function createtooltip(){
+				tooltip = document.createElement('div');
+				tooltip.style.cssText = 
+				'position:absolute; background:black; color:white; padding:4px;z-index:10000;'
+				+ 'border-radius:2px; font-size:20px;box-shadow:3px 3px 3px rgba(0,0,0,.4);'
+				+ 'opacity:0;transition:opacity 0.3s'
+
+				tooltip.innerHTML = 'Copied!'
+				document.body.appendChild(tooltip);
+			}
+			// show  tooltip finction
+
+			function showtooltip(event){
+				var evt = event;
+				clearTimeout(hidetooltiptimer);
+				tooltip.style.left = evt.pageX - 10 + 'px'
+				tooltip.style.top = evt.pageY + 15 + 'px'
+				tooltip.style.opacity = 1
+				hidetooltiptimer = setTimeout(function(){
+					tooltip.style.opacity = 0
+				}, 500);
+			}
+
+			createtooltip() // create tooltip by calling it ONCE per page. See "Note" below
+        	$('div.content').on('mouseup',function(){
+        		// var copysuccess = copySelectionText();
+        		// var selected = getSelectionText();
+        		var copysuccess = copySelectionText();
+        		// showtooltip(event);
+        		if (copysuccess) {
+        			// var copysuccess = copySelectionText();
+        			showtooltip(event);
+        			
+        		}
+        	});
+        </script>
+    </body>
+</html>
