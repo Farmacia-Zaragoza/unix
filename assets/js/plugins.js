@@ -22,3 +22,13 @@
 }());
 
 // Place any jQuery/helper plugins in here.
+
+
+// syntex highlighter plugine start here
+// ======================================
+$(document).ready(function(){
+    $('pre code').each(function(i, block) {
+    hljs.highlightBlock(block);
+  });
+
+});

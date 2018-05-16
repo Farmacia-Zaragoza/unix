@@ -19,7 +19,9 @@
         <link rel="stylesheet" href="assets/css/main.css">
         <link rel="stylesheet" href="assets/css/responsive/responsive.css">
         <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" href="assets/css/pf_progressive_image_v03.css">
+        <!-- <link rel="stylesheet" href="assets/css/pf_progressive_image_v03.css"> -->
+        <!-- syntex highlighter shyle -->
+        <link rel="stylesheet" href="assets/css/styles/default.css">
         <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body class="page_id_images pf_simple js-enabled not-touch-device">
@@ -102,9 +104,29 @@
 	                <div class="scroll-outer-container">
 	                    <div class="scroll-middle-container">
 	                        <div class="scroll-inner-container">
-	                        	
-	                           
+	                        	<!-- syntex highlighted area start -->
+	                           <pre>
+                                    <code class="JavaScript">
+//javaScript code to highlight
+function $initHighlight(block, cls) {
+  try {
+    if (cls.search(/\bno\-highlight\b/) != -1)
+      return process(block, true, 0x0F) +
+             ` class="${cls}"`;
+  } catch (e) {
+    /* handle exception */
+  }
+  for (var i = 0 / 2; i < classes.length; i++) {
+    if (checkCondition(classes[i]) === undefined)
+      console.log('undefined');
+  }
+}
 
+export  $initHighlight;
+                                    </code>
+                                </pre>
+
+                                <!-- syntex highlighted area start -->
 	                        </div>
 	                    </div>
 	                </div>
@@ -128,18 +150,23 @@
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 
         <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+
+        <!-- syntex highlight js plugine -->
+        <!-- <script src="assets/js/highlight.js"></script> -->
+
+        <script src="assets/js/highlight.pack.js"></script>
         <script src="assets/js/plugins.js"></script>
         <!-- <script src="js/drift.js"></script>--> <!-- NO NEED drift.js for page_normal.html -->
         <script src="assets/js/bootstrap_js/bootstrap.min.js"></script>
         <script src="assets/js/main.js"></script>
-        <script src="assets/js/blazy_js/blazy.min.js"></script>
-        <script src="assets/js/lightbox_js/lightbox.js"></script>
-        <script src="assets/js/jquery.elevatezoom.js"></script>
-        <script src="assets/js/ddslick_plugin_js/jquery.ddslick.js"></script>
+        <!-- <script src="assets/js/blazy_js/blazy.min.js"></script> -->
+        <!-- <script src="assets/js/lightbox_js/lightbox.js"></script> -->
+        <!-- <script src="assets/js/jquery.elevatezoom.js"></script> -->
+        <!-- <script src="assets/js/ddslick_plugin_js/jquery.ddslick.js"></script> -->
         <!-- all functions js here strt -->
         <!-- <script src="assets/js/pf_progressive_img.js"></script> -->
         <script src="assets/js/pf_toolbox_functions.js"></script>
-        <script src="assets/js/pf_progressive_images_v03.js"></script>
+        <!-- <script src="assets/js/pf_progressive_images_v03.js"></script> -->
 		
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
