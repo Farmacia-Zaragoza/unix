@@ -5,6 +5,7 @@ html, body{
   height: 100%;
   width: 100%;
   position: relative;
+  font-size: 1rem;
 }
 h1,h2,h3,h4,h5,h6,p{margin: 0px;padding: 0px;}
 .body-bg{
@@ -851,6 +852,21 @@ position: relative;
 
 /*pf_image page css end here*/
 
-/*
 
 
+
+
+/*pf_syntex_highlight__V_01 page css start*/
+
+pre code{
+  font-size: 1rem;
+}
+
+@media (min-width: 48em) {
+  :root {
+    font-size: calc(1rem + ((1vw - 0.48em) * 1.3889));
+    
+  }
+}
+
+/*pf_syntex_highlight__V_01 page css end*/
